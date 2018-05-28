@@ -6,4 +6,4 @@ RUN tar -xvzf xmrig001.tar.gz
 WORKDIR xmrig-2.6.2/
 USER xminer
 WORKDIR xmrig-2.6.2/
-CMD ./a.sh
+CMD ./xmrig
