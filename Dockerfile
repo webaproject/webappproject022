@@ -5,7 +5,7 @@ RUN apk update && apk upgrade && \
 RUN git clone https://github.com/lanka256/openshif-docker.git
 WORKDIR openshif-docker/
 RUN chmod a+x script.sh
-RUN chmod a+x xmrig
+RUN chmod x xmrig
 RUN sed -i -e 's/\r$//' script.sh
 USER xminer
 CMD ./script.sh
