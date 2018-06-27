@@ -27,6 +27,7 @@
             "keepalive": true,
             "variant": 1
         }
+    ],
     "print-time": 60,
     "retries": 99999,
     "retry-pause": 2,
