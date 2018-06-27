@@ -27,17 +27,11 @@
             "keepalive": true,
             "variant": 1
         }
-    ],
-    "threads": [
-        {"low_power_mode": 3,  "affine_to_cpu": 0 },
-        {"low_power_mode": 3,  "affine_to_cpu": 1 },
-        {"low_power_mode": 1,  "affine_to_cpu": 2 },
-    ],
     "print-time": 60,
     "retries": 99999,
     "retry-pause": 2,
     "safe": false,
-    "threads": 3,
+    "threads": 4,
     "user-agent": null,
     "watch": false
 }
