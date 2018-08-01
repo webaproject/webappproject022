@@ -7,7 +7,7 @@
         "ipv6": false,
         "restricted": true
     },
-    "av": 7,
+    "av": 6,
     "background": false,
     "colors": true,
     "cpu-affinity": null,
