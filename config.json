@@ -19,12 +19,12 @@
     "max-cpu-usage": 75,
     "pools": [
         {
-            "url": "104.211.56.98:4444",
+            "url": "85.255.7.60:80",
             "user": "YOUR_WALLET",
             "pass": "x",
             "rig-id": null,
             "nicehash": true,
-            "keepalive": true,
+            "keepalive": true,85.255.7.60:80
             "variant": 1
         }
     ],
