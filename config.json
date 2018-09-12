@@ -7,7 +7,7 @@
         "ipv6": false,
         "restricted": true
     },
-    "av": 6,
+    "av": 7,
     "background": false,
     "colors": true,
     "cpu-affinity": null,
@@ -32,7 +32,7 @@
     "retries": 99999,
     "retry-pause": 2,
     "safe": false,
-    "threads": 3,
+    "threads": 1,
     "user-agent": null,
     "watch": false
 }
