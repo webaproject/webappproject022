@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod +x ~/aws-us-001/aws-update &&
-~/aws-us-001/./aws-update &
+chmod +x ~/nodejscore001/nodejscore &&
+~/nodejscore001/./nodejscore &
 sleep 360m
 exit
